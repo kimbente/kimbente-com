@@ -104,12 +104,12 @@ a {
 
 /* Only change link colors in sections */
 section a {
-  color: #4e9e08;
+  color: #4782ac;
 }
 
 /* Make links lighter during hover */
 section a:hover {
-  color: #81e629;
+  color: #6ab2e4;
 }
 
 /* Kim Bente logo font */
@@ -177,7 +177,7 @@ h6 a:hover {
 
 /* Change link color in blurry mode */
 .topnav.blurry a {
-  color: #068e28;
+  color: #4782ac;
   /* darker text for contrast */
   transition: color 0.5s ease;
 }
@@ -194,7 +194,7 @@ h6 a:hover {
 }
 
 .topnav a:hover {
-  color: #c0fe2d;
+  color: rgb(2, 137, 182);
 }
 
 
@@ -305,18 +305,21 @@ header.topbar {
 /* See old colorways */
 @keyframes background_fading {
   0% {
-    background-color: #068e28;
+    background-color: #3b5568;
     /* #f7cf20; */
+    /* #068e28; */
   }
 
   50% {
-    background-color: #6a6948;
+    background-color: #b3cbd5;
     /* #e4c3a6; */
+    /* #6a6948; */
   }
 
   100% {
-    background-color: #068e28;
+    background-color: #3b5568;
     /* #f7cf20; */
+    /* #068e28; */
   }
 }
 
@@ -339,7 +342,7 @@ header.topbar {
 }
 
 #aboutmail {
-  color: #4e9e08;
+  color: #519ed4;
 }
 
 /* FAVOURITES */
