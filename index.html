@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- embedding CSS -->
+  <!-- css-folder is workaround since it didn't update -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- embedding JS -->
+  <script src="js/main.js"></script>
+
+  <!-- GOOGLE ANLYTICS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123953496-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-123953496-1');
+  </script>
+
+  <!-- FONT embeddings -->
+  <!-- Wolpe Pegasus -->
+  <link href="//db.onlinewebfonts.com/c/08fd6ffb87aac63ca5d4a4da848f4b86?family=Wolpe+Pegasus" rel="stylesheet"
+    type="text/css">
+  <!-- Rubik & Raleway Google fonts -->
+  <!-- font-family: 'Raleway', sans-serif; -->
+  <!-- font-family: 'Rubik', sans-serif; -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Rubik:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- HAMBURGER menu icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="/img/favicon_plain.png">
+  <!-- Academic icons -->
+  <link rel="stylesheet" href="css/academicons.min.css" />
+
+
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- makes the width responsive by overwriting the default---->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- microsoft edge compatibility -->
+  <meta name="description"
+    content="Acedemic profile of Kim Bente: My name is Kim Bente and I am a Data Science PhD student at the School of Computer Science, University of Sydney. My research interests are centred around using probabilistic Machine Learning for environmental modelling. I am part of the DARE (Data Analysis for Resources and Environments) ARC Training Centre. ">
+  <!-- meta tag showing in the SERPs -->
+  <meta name="author" content="Kim Bente">
+  <!-- author of the page -->
+  <meta name="keywords"
+    content="machine learning, ML4Cryo, PhD, Kim Bente, University of Sydney, DARE, Data Science, Geospatial AI, Antarctic research, Bayesian Optimisation, Climate Science, Earth Science, Geophysics, Earth Observation, EO foundation models, probabilistic machine learning, uncertainty quantification">
+  <!-- improve SEO by using meta keywords -->
+  <!-- Title for tab -->
+  <title>Kim Bente</title>
+</head>
+
+
+<body>
+  <div class="loader hidden">Loading</div>
+  <div class="container_all">
+    <div class="full_height color_trainsition_background" onscroll="removenavbar()">
+
+      <div class="topnav" id="myTopnav">
+        <a href="#researchinterests">Research Interests</a>
+        <a href="#about">About</a>
+        <a href="#dailydatadose">Daily Data Dose</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="container-logo">
+        <div class="center">
+          <h1> Kim Bente</h1>
+        </div>
+      </div>
+    </div>
+    <!-- End of background -->
+    <div class="sections_container">
+
+      <section id="researchinterests">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2> Research interests </h2>
+          </div>
+          <div class="column-right">
+            <ul class="researchinterests-list">
+              <li> I am interested in developing application-driven machine learning innovations, particularly for
+                geospatial, geophysical, and Antarctic science.
+              </li>
+              <li> Geospatial modelling</li>
+              <li> Physics-informed ML</li>
+              <li> Climate, Earth Science, and Geophysics applications</li>
+              <li> Antarctica and the Cryosphere </li>
+              <li> Earth observation (EO) </li>
+              <li> EO foundation models </li>
+              <li> Active learning with Bayesian Optimisation (BO)</li>
+              <li> Causal inference</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>About</h2>
+          </div>
+          <div class="column-right">
+            <img src="img/kb_headshot.png" alt="Headshot of Kim Bente">
+            <p> My name is Kim Bente and I am a final year
+              <stronger> Machine Learning PhD student at the School of Computer Science, University of Sydney
+              </stronger> ,supervised by
+              <a href="https://fabioramos.github.io/Home.html">Prof Fabio Ramos</a> (NVIDIA, University of Sydney), and
+              <a href="https://profiles.uts.edu.au/Roman.Marchant">A/Prof Roman Marchant</a> (Human Technology
+              Institute, UTS). My research interests are
+              centred around using probabilistic machine learning and statistical computing methods to address Climate
+              Science problems. I am particularly interested in the quantification of uncertainty to inform high-stakes
+              decision in the climate domain. I am currently working on the application Bayesian Optimisation to
+              Antarctic research problems, including sensor network design, data fusion and ice core drilling site
+              determination. I am a member of the <a href="https://darecentre.org.au/">DARE (Data Analytics for
+                Resources and Environments) ARC Training Centre</a>, an Industrial Transformation training centre, led
+              by the University of Sydney.
+              I have gained extensive experience on interdisciplinary research projects, most notably collaborating with
+              Nutrition and Dietetics research, and also working on educational data, as well as criminology data.
+            </p>
+            <p>I have completed the <b>Master of Data Science</b> [with high distinction] from the University of Sydney
+              in 2020 and I hold a Bachelor of Science from the Technical University Munich, in Management & Technology,
+              specialising in Chemical Engineering and Finance.</p>
+            <p>Please contact me via <a id="aboutmail"
+                href="mailto:kim.bente@sydney.edu.com">kim.bente@sydney.edu.au</a></p>
+            <p>Check out my <stronger><a href="https://github.com/kimbente">GitHub repositories</a></stronger> for
+              preprocessing pipelines of
+              Antarctic datasets (e.g. Bedmap3 points, Bedmap maps, BedMachine, RACMO 2.4, GRACE-FO, MODIS MOA, NASA's
+              MEaSUREs datasets), Physics-Informed ML models built in PyTorch, Uncertainty Quatification using GPyTorch
+              and BOTorch for example, and much more.</p>
+            <a href="mailto:kim.bente@sydney.edu.au" class="fa fa-envelope fa-2x social"></a>
+            <a href="https://scholar.google.com/citations?user=d4kSNWwAAAAJ&hl=en&oi=ao"
+              class="ai ai-google-scholar ai-2x social"></a>
+            <a href="https://www.researchgate.net/profile/Kim_Bente" class="ai ai-researchgate ai-2x social"></a>
+            <a href="https://orcid.org/0000-0002-7126-7736" class="ai ai-orcid ai-2x social"></a>
+            <a href="https://github.com/kimbente" class="fa fa-github fa-2x social"></a>
+            <a href="https://twitter.com/bente_kim" class="fa fa-twitter fa-2x social"></a>
+            <a href="https://www.linkedin.com/in/kim-bente-626048151/" class="fa fa-linkedin fa-2x social"></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="ml4cryo">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>ML4Cryo news</h2>
+          </div>
+          <div class="column-right">
+            <ul class="ml4cryo-list">
+              <li><strong>ML4Cryo</strong> (Machine Learning for the Cryosphere) is a research community initiative that
+                connects
+                researchers and practitioners working at the intersection of machine learning and cryospheric science.
+                It was
+                co-founded in 2024 by <a href="https://juliakaltenborn.github.io/">Julia Kaltenborn</a>, <a
+                  href="https://ampersandmcd.com/">Andrew McDonald</a>, and myself.</li>
+              <li> Visit the <a href="https://ml4cryo.github.io/">ML4Cryo website</a>.</li>
+              <li> Join the <a href="https://ml4cryo.github.io/">ML4Cryo community Slack channel</a>.</li>
+              <li> Submit to the <a href="https://meetingorganizer.copernicus.org/EGU26/session/56852 ">`Machine
+                  Learning for the Cryosphere' session (CR6.1)</a> at EGU 2026 in Vienna, Austria (3–8 May 2026).</li>
+              <li> Submit to the <a href="https://npolar.no/en/arrangement/scar2026/">`Artificial Intelligence and
+                  Machine Learning in Antarctic Science' parallel session</a> at the 12th SCAR Open Science Conference
+                in Oslo, Norway (8–19 August 2026).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="ml4cryo">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>ML reading group</h2>
+          </div>
+          <div class="column-right">
+            I organise our weekly Machine Learning & Robotics reading group at the University of Sydney, led by Prof
+            Fabio Ramos. If you're interested in joining you can sign up to the <a
+              href="https://mailman.sydney.edu.au/mailman/listinfo/machinelearning">USYD ML reading group mailing
+              list</a>.
+
+          </div>
+        </div>
+      </section>
+
+      <section id="Publications">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Publications</h2>
+          </div>
+          <div class="column-right">
+            <ul class="publications-list">
+              <li>Kim Bente, Roman Marchant, Fabio Ramos. <stronger><a href="https://arxiv.org/abs/2510.06286">"Mass
+                    Conservation on Rails - Rethinking Physics-Informed Learning of Ice Flow Vector Fields."</a>
+                </stronger> In NeurIPS 2025
+                Tackling Climate Change with Machine Learning Workshop (2025). Available on <a
+                  href="https://arxiv.org/abs/2510.06286">arXiv</a>.
+              </li>
+
+              <li>Contribution to Moreno-Rodenas et al. <a
+                  href="https://www.unesco.org/en/articles/applications-artificial-intelligence-water-management">"Applications
+                  of artificial intelligence for water management."</a> Publication via the UNESCO Intergovernmental
+                Hydrological Programme (2025).
+              </li>
+
+              <li>Kim Bente, Roman Marchant, Fabio Ramos. <a
+                  href="https://www.climatechange.ai/papers/neurips2023/116">"Antarctic Bed Topography Super-Resolution
+                  via Transfer Learning."</a> In NeurIPS 2023
+                Tackling Climate Change with Machine Learning Workshop.
+              </li>
+
+              <li>Kim Bente, Judy Kay, Roman Marchant. <a
+                  href="https://www.climatechange.ai/papers/aaaifss2022/16">"Probabilistic Machine Learning in Polar
+                  Earth and Climate Science: A Review of Applications and Opportunities."</a> In AAAI 2022 Fall
+                Symposium: The Role of AI in Responding to Climate Challenges (2022).
+              </li>
+
+              <li>Kim Bente*, Emma Nassif*, Alyse Davies*, Lyndal Wellard-Cole, Jisu Jung, Judy Kay, Clare Hughes et
+                al. <a href="https://www.mdpi.com/2072-6643/14/18/3751">"The Contribution of Nutrients of Concern to the
+                  Diets of 18-to-30-Year-Old Australians from Food Prepared Outside Home Differs by Food Outlet Types:
+                  The MYMeals Cross-Sectional Study."</a> Nutrients 14, no. 18 (2022): 3751.
+                <smaller><br>* equal contributions</smaller>
+              </li>
+
+              <li>Lyndal Wellard-Cole, Alyse Davies, Juliana Chen, Jisu Jung, Kim Bente, Judy Kay, Wendy L. Watson et
+                al. <a href="https://www.mdpi.com/2072-6643/13/6/1761">"The contribution of foods prepared outside the
+                  home to the diets of 18-to 30-year-old Australians: the MYMeals study."</a> Nutrients 13, no. 6
+                (2021): 1761.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="conferences">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Conferences</h2>
+          </div>
+          <div class="column-right">
+            <ul class="conferences-list">
+              <li>
+                <stronger>COMING UP&nbsp; &mdash; &nbsp;</stronger><a
+                  href="https://www.climatechange.ai/events/neurips2025">NeurIPS 2025 Tackling Climate Change with
+                  Machine Learning workshop</a> hosted by Climate Change AI. I will be attending NeurIPS to present my
+                accepted workshop paper, <a href="https://neurips.cc/virtual/2025/loc/san-diego/127000">Mass
+                  Conservation on Rails – Rethinking Physics-Informed Learning of Ice Flow Vector Fields</a> (poster
+                presentation, Sunday 7 December, Upper Level Room 24ABC).
+                <smaller><br>1 - 7 December 2025, San Diego, California, USA</smaller>
+              </li>
+
+              <li>
+                <a href="https://polar-data-forum.org/">Polar Data
+                  Forum VI</a> hosted by the Australian Antarctic Data Centre &mdash; I gave a talk within the
+                Machine Learning / Artificial Intelligence theme.
+                <smaller><br>20 - 24 October 2025, Hobart, Tasmania, Australia</smaller>
+              </li>
+
+              <li><a href="https://meetingorganizer.copernicus.org/EGU25/session/52609"> EGU 2025 </a> &mdash; I served
+                as co-convener of the <it>'Machine Learning for Cryospheric Sciences'</it> session, and also presented
+                at session EOS4.6.
+                <smaller><br>27 April - 2 May 2025, Vienna, Austria (virtual attendance)</smaller>
+              </li>
+
+              <li><a href="https://alan-turing-institute.github.io/climate-informatics-2024/">Climate Informatics
+                  2024</a> &mdash; I attended and presented my poster virtually at this conference.
+                <smaller><br>22 - 24 April 2024, London, UK (virtual attendance)</smaller>
+              </li>
+
+              <li><a href="https://meetingorganizer.copernicus.org/EGU24/session/48289"> EGU 2024 </a> &mdash; I
+                presented my poster virtually at the <it>'Understanding cryospheric processes in the past, present and
+                  future using data assimilation and machine learning'</it> session.
+                <smaller><br>14 - 19 April 2024, Vienna, Austria (virtual attendance)</smaller>
+              </li>
+
+              <li><a href="https://www.climatechange.ai/events/neurips2023">NeurIPS 2023 Tackling Climate Change with
+                  Machine Learning workshop</a> hosted by Climate Change AI. I attended NeurIPS and presented my poster.
+                <smaller><br>10 - 16 December 2023, New Orleans, Louisiana, USA</smaller>
+              </li>
+
+              <li><a href="https://www.climatechange.ai/events/aaaifss2022">AAAI 2022 Fall Symposium: The Role of AI in
+                  Responding to Climate Challenges</a> hosted by Climate Change AI. I attended the symposium and gave a
+                talk.
+                <smaller><br>17 - 19 November 2022, Arlingtion, Virginia, USA</smaller>
+              </li>
+
+              <li><a href="https://cires.org.au/cires-phd-school-2022/">Information Resilience PhD School 2022</a>
+                hosted by the ARC Industrial Transformation Training Centre in Information Resilience (CIRES). I
+                presented my research as a poster and in a 3MT.
+                <smaller><br>12 - 14 September 2022, The University of Queensland (UQ), Brisbane, Queensland, Australia
+                </smaller>
+              </li>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Talks">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Seminars & talks</h2>
+          </div>
+          <div class="column-right">
+            <ul class="education-list">
+              <li>
+                <stronger>COMING UP&nbsp; &mdash; &nbsp;</stronger>Seminar at the <a
+                  href="https://polar.ucsd.edu/">Scripps Polar Center</a>,
+                Scripps Institution of Oceanography, University of California San Diego (UCSD)
+                <smaller><br>5/12/2025 University of California San Diego, San Diego, California, USA</smaller>
+              </li>
+
+              <li>
+                Seminar at the <a href="https://www.earthbyte.org/category/earthbyte-seminars/">Geology-Geophysics
+                  seminar series</a>,
+                School of Geosciences, University of Sydney
+                <smaller><br>5/11/2025 University of Sydney, Sydney, Australia</smaller>
+              </li>
+
+              <li>Seminar at the <a href="https://www.westernsydney.edu.au/crmds">Centre for Research in Mathematics and
+                  Data Science</a> at Western Sydney University, hosted by Associate Professor Oliver Obst
+                <smaller><br>25/09/2025 Western Sydney University, Sydney, Australia</smaller>
+              </li>
+
+              <li>Seminar at the <a href="https://compantarctic.org/">Compute Antarctic research group
+                </a> at University of Tasmania, hosted by Professor Anya Reading
+                <smaller><br>13/06/2025 University of Tasmania, Hobart, Australia</smaller>
+              </li>
+
+              <li>Panelist at the <a
+                  href="https://cires.org.au/event/information-resilience-phd-school-2024/">Information Resilience PhD
+                  School 2024
+                </a> hosted by the ARC Industrial Transformation Training Centre in Information Resilience (CIRES)
+                <smaller><br>31/10/2024 University of Queensland, Brisbane, Australia</smaller>
+              </li>
+
+              <li>Research talk & Panel at the <a
+                  href="https://gdg.community.dev/gdg-on-campus-the-university-of-sydney-sydney-australia/">Google
+                  Deepmind event organised by USYD GDSC (Google Developer Student Club)
+                </a> at Google Sydney
+                <smaller><br>28/06/2024 Google, Sydney, Australia</smaller>
+              </li>
+
+              <li>Seminar at the <a href="https://www.uow.edu.au/niasra/">National Institute for Applied Statistics
+                  Research Australia (NIASRA)
+                </a> at the University of Wollongong
+                <smaller><br>6/04/2024 University of Wollongong, Wollongong, Australia</smaller>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviewing">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2> Reviewing</h2>
+          </div>
+          <div class="column-right">
+            <ul class="researchinterests-list">
+              <li> NeurIPS 2025 Tackling Climate Change with Machine Learning workshop </li>
+              <li> Conference on Uncertainty in Artificial Intelligence (UAI) 2025</li>
+              <li> ICLR 2025 Tackling Climate Change with Machine Learning workshop </li>
+              <li> Conference on Uncertainty in Artificial Intelligence (UAI) 2024</li>
+              <li> ICLR 2024 Tackling Climate Change with Machine Learning workshop</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Education</h2>
+          </div>
+          <div class="column-right">
+            <ul class="education-list">
+              <li> Machine Learning PhD student (current), The University of Sydney, Australia
+                <br>
+                <it>'Uncertainty Quantification and Physical Priors for Geospatial Models of Antarctica'</it>,
+                supervised by
+                Professor Fabio Ramos and A/Prof Roman Marchant
+                <br>member of the <a href="https://darecentre.org.au/">DARE (Data Analytics for Resources and
+                  Environments) ARC Training Centre</a>
+              </li>
+
+              <li> Master of Data Science, The University of Sydney, Australia
+                <br>completed with High Distinction in 2020
+                <br>Final research project (Capstone) <it>'New Perspectives on the Validation of a Mobile App for
+                  Dietary Assessment using Data Mining'</it>, supervised by Professor Judy Kay
+                <br>Faculty of Engineering Summer Research Program Scholarship 2019/2020 for the project 'Data
+                mining of dietary patterns', supervised by Prof Judy Kay, A/Prof Irena Koprinska and A/Prof
+                Kalina Yacef
+              </li>
+
+              <li> Graduate Certificate in Data Science, The University of Sydney, Australia
+                <br>completed with High Distinction in 2019
+              </li>
+
+              <li> Bachelor of Science in Management & Technology, Technical University of Munich, Germany
+                <br>Specialisation in Chemical Engineering
+                <br>Bachelor's Thesis about <it>'Knowledge Management in a Dynamic Organisation'</it>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Teaching">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Teaching</h2>
+          </div>
+          <div class="column-right">
+            <ul class="education-list">
+              <li>Tutor for Computer Science Research Methods [<a
+                  href="https://www.sydney.edu.au/units/INFO5993">INFO5993</a>],
+                School
+                of Computer Science
+                <smaller><br>Semester 2 2024, postgraduate research education</smaller>
+              </li>
+
+              <li>Tutor for Computer Science Research Methods [<a
+                  href="https://www.sydney.edu.au/units/INFO5993">INFO5993</a>], School
+                of Computer Science
+                <smaller><br>Semester 1 2023, postgraduate research education</smaller>
+              </li>
+
+              <li>Tutor for Human-in-the-Loop Data Analytics [<a
+                  href="https://www.sydney.edu.au/units/DATA3406">DATA3406</a>], School of Computer Science
+                <smaller><br>Semester 2 2022, undergraduate level tutoring</smaller>
+              </li>
+
+              <li>Tutor for Data Analysis in the Social Sciences [<a
+                  href="https://www.sydney.edu.au/units/DATA5207">DATA5207</a>], United States Study Centre
+                <smaller><br>Intensive February 2021, postgraduate level tutoring</smaller>
+              </li>
+
+              <li>Tutor for Algorithms [<a href="https://www.sydney.edu.au/units/COMP9007">COMP9007</a>], School of
+                Computer Science
+                <smaller><br>Semester 2 2019, postgraduate level tutoring</smaller>
+              </li>
+
+              <li>Course analytics for Human-in-the-Loop Data Analytics [<a
+                  href="https://www.sydney.edu.au/units/DATA3406">DATA3406</a>], School of Computer Science
+                <smaller><br>Educational data analytics, student performance feedback with <a
+                    href="https://www.sres.io/">SRES</a>, development of a computer-based marking program for Semester 2
+                  2020</smaller>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Professional Experience">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Professional experience</h2>
+          </div>
+          <div class="column-right">
+            <ul class="researchinterests-list">
+              <li> Customer Analytics and Customer Relationship Management at FOURSOURCE, a tech start-up in apparel
+                sourcing, Berlin, Germany </li>
+              <li> Innovation Consulting and Ideation, Junior Innovation consultant, HYVE, Munich, Germany</li>
+              <li> Management Consulting, media sector, working student, goetzpartners advisory, Munich, Germany</li>
+              <li> Research & Development (R&D) and International Marketing, internships, consumer goods sector,
+                Schwarzkopf (Henkel), Hamburg, Germany</li>
+              <li> Product development and product management, internship, consumer goods sector, Kneipp, Würzburg,
+                Germany</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Outside of research">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Outside of research...</h2>
+          </div>
+          <div class="column-right">
+            <ul class="researchinterests-list">
+              <li> Running, Cycling, Tennis, Hiking, Swimming, Skiing </li>
+              <li> Designing and sewing timeless garments and other textile creations</li>
+              <li> Cooking healthy food, travelling, exploring art</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="dailydatadose">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Daily Data Dose</h2>
+          </div>
+          <div class="column-right">
+            <p>The Daily Data Dose [DDD] is a compilation of my favourite data-related resources, both informative &
+              entertaining. My shortlist includes podcasts, websites, talks and other useful things that I came across.
+              Most of these I have recommended to a plethora of data-enthusiasts, so it was time to put a list on the
+              web. I thank everyone who has introduced me to any of these gems. Links are included below.</p>
+            <ul class="favourites-list">
+              <li><a href="http://cici.lab.asu.edu/polarglobe/">PolarGlobe 4D climate data visualisation</a>
+                <h4><br>Amazing nowcasts as well as 12 day forecasts of global wind and ocean currents for the whole
+                  globe.</h4>
+              </li>
+
+              <li><a href="https://vanishinggradients.fireside.fm/">The Vanishing Gradients podcast</a>
+                <h4><br>This is my new favourite Data Science podcasts! </h4>
+              </li>
+
+              <li><a href="https://www.datacamp.com/community/podcast">The Dataframed podcast</a>
+                <h4><br>This is my previous favourite Data Science podcasts! I have listened to every of the 60 episodes
+                  at least once, soaking up insights from industry to academia. I can't recommend this enough, and if
+                  you know me I will have likely already recommended it to you. </h4>
+              </li>
+
+              <li><a href="https://github.com/kimbente/antarctica-data-sets">My compilation of Antarctic data sets</a>
+                <h4><br>A repository on my GitHub with an overview of icy data sets, frosty models and other
+                  high-latitude data collections. I focus on the Antarctic ice sheet.</h4>
+              </li>
+
+              <li><a href="https://www.microsoft.com/en-us/ai/ai-for-earth">'AI for Earth' projects by Microsoft</a>
+                <h4><br>I learnt about some of the projects from 'AI for Earth' at a very inspiring talk by Jennifer
+                  Marsman at the Microsoft reactor in Sydney. I was very fascinated by the creative use of AI,
+                  especially by the World Mosquito Program and the Whalebook. I recommend checking out the projects.
+                </h4>
+              </li>
+
+              <li><a href="https://www.coursera.org/learn/process-mining">Process Mining Coursera course by Professor
+                  Wil van der Aalst</a>
+                <h4><br>I took this course on Process Mining which is not only interesting from an algorithmic point of
+                  view but very relevant for any temporal or procedural data set. Great course!</h4>
+              </li>
+
+              <li><a href="https://www.youtube.com/watch?v=MJSorilDVY4&ab_channel=PyConAU">"Environment Variables: how
+                  software impacts climate change" - Merrin Macleod (PyCon AU 2019)</a>
+                <h4><br>This is an outstanding talk which was recommended to me by a colleague (Thanks Ben!). If you
+                  care about the environment and you work in tech, you will surely learn something new here.</h4>
+              </li>
+
+              <li><a href="https://pudding.cool/">The Pudding</a>
+                <h4><br>The Pudding is website which publishes visual essays about societal and cultural topics. They
+                  are pushing the boundaries of data journalism and therefore always worth a digital visit.</h4>
+              </li>
+
+              <li><a href="https://www.gapminder.org/">Gapminder</a>
+                <h4><br>Gapminder is a great organisation that promotes a more fact-based worldview. They also have an
+                  extensive collection of open access data sets. Furthermore, I highly recommend reading the book
+                  'Factfulness' by Hans Rosling.</h4>
+              </li>
+
+              <li><a href="https://informationisbeautiful.net/">Information is Beautiful</a>
+                <h4><br>A collection of informative and visually appealing data visualisations.</h4>
+              </li>
+
+              <li><a href="https://datasetsearch.research.google.com/">Google dataset search tool</a>
+                <h4><br>A search engine for data sets. A very useful tool to find openly available data sets.</h4>
+              </li>
+
+              <li><a href="https://mitpress.mit.edu/books/data-science">Data Science by John D. Kelleher and Brendan
+                  Tierney</a>
+                <h4><br>I recommend this book to family and friends who want to understand what I do, but I also like
+                  going back to this pocket book by MIT Press to reset my own perspective for the big picture.</h4>
+              </li>
+
+              <li><a href="https://paperswithcode.com/">Papers with code</a>
+                <h4><br>Professor Caren Han's NLP course [<a
+                    href="https://www.sydney.edu.au/units/COMP5046">COMP5046</a>] introduced me to this site, which is a
+                  great resource to stay on top of the latest ML research in different fields.</h4>
+              </li>
+
+              <li><a href="https://www.autodeskresearch.com/publications/samestats">Datasaurus, the new Anscombe's
+                  quartet</a>
+                <h4><br>An updated and more creative version of the Anscombe's quartet, including animated
+                  visualisations. This demonstrates once again that summary statistics are not enough to describe data.
+                </h4>
+              </li>
+
+              <li><a href="https://www.tylervigen.com/spurious-correlations">Spurious correlations blog by Tyler
+                  Vigen</a>
+                <h4><br>A good reminder that correlation ≠ causation.</h4>
+              </li>
+
+              <li><a href="https://thetruesize.com">The True size of ...</a>
+                <h4><br>This is a fun web tool to understand the distortion of the size of countries, as they are
+                  displayed on the world map. </h4>
+              </li>
+
+              <ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="column-wrapper">
+          <div class="column-left">
+            <h2>Contact</h2>
+          </div>
+          <div class="column-right">
+            <ul class="contact-list">
+              <li><a href="mailto:kim.bente@sydney.edu.au">kim.bente@sydney.edu.au</a></li>
+              <!--<li><a href="tel:+61490485988">+61 4 9048 5988</a></li>-->
+              <li>Find me in <a href="https://goo.gl/maps/tM8jxj5WR6wo3d9DA">J12 - School of Computer Science</a></li>
+              <li>The University of Sydney, 2006 NSW, Australia</li>
+              <br>
+            </ul>
+            <a href="mailto:kim.bente@sydney.edu.au" class="fa fa-envelope fa-2x social"></a>
+            <a href="https://scholar.google.com/citations?user=d4kSNWwAAAAJ&hl=en&oi=ao"
+              class="ai ai-google-scholar ai-2x social"></a>
+            <a href="https://www.researchgate.net/profile/Kim_Bente" class="ai ai-researchgate ai-2x social"></a>
+            <a href="https://orcid.org/0000-0002-7126-7736" class="ai ai-orcid ai-2x social"></a>
+            <a href="https://github.com/kimbente" class="fa fa-github fa-2x social"></a>
+            <a href="https://twitter.com/bente_kim" class="fa fa-twitter fa-2x social"></a>
+            <a href="https://www.linkedin.com/in/kim-bente-626048151/" class="fa fa-linkedin fa-2x social"></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="footerwrapper" class="text_centered">
+      <h6> <a ref=#about"> built by Kim Bente </a> </h6>
+    </div>
+
+    <div id=legal-footer>
+      <div>
+        All rights reserved. © 2025 Kim Bente
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
