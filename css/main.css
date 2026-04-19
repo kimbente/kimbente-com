@@ -113,8 +113,11 @@ section a:hover {
 }
 
 /* Kim Bente logo font */
+
 h1 {
-  font-family: 'Wolpe Pegasus W01 Bold', serif;
+  font-family: 'Wolpe Pegasus', Times, serif;
+  font-weight: 700;
+  /* font-family: 'Wolpe Pegasus W01 Bold', serif; */
   /* font size relative to viewport width */
   font-size: 12vw;
   color: #ffffff;
